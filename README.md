@@ -2,7 +2,7 @@
  * @Author: sroxck
  * @Date: 2023-10-18 09:53:04
  * @LastEditors: sroxck
- * @LastEditTime: 2023-10-18 10:55:22
+ * @LastEditTime: 2023-10-18 11:04:15
  * @Description: 
 -->
 # driver demo
@@ -35,7 +35,7 @@ const driverObj = driver({
     popover.footerButtons.appendChild(firstButton);
     // 点击后回到第一步
     firstButton.addEventListener("click", () => {
-      driverObj.drive(0);
+      driverObj.drive(0); // 传参调用 回到第一步
     });
   },
 });
